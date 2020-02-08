@@ -20,7 +20,7 @@ public class LoginTest
 	public void setup()
 	{
 	//	WebDriverManager.chromedriver().setup();
-		System.setProperty("webdriver.chrome.driver","drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","drivers\\chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
