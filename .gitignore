@@ -1,0 +1,8 @@
+/.metadata/
+.metadata/
+SeleniumTraining/libs/
+test-output/
+.classpath
+.project
+.settings
+target/
